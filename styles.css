@@ -80,6 +80,7 @@ iframe {
 
 .section {
     background-color: #ffffff;
+    text-align: left;
     padding: 30px;
     margin: 20px 0;
     border-radius: 8px;
