@@ -1,0 +1,131 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+}
+/* Header styles */
+header {
+    background-image: linear-gradient(#8B008B, #BA55D3);
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 6px 12px #0f0f0f;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-shadow: 0 6px 12px #0f0f0f;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: rgba(216, 191, 216, 0.5);
+    text-align: left;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 12px 20px;
+    display: inline-block;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #b9a2b9;
+}
+
+/* Content section styles */
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px #0f0f0f;
+}
+
+.section-title {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #BA55D3;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.section p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.section ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.section ul li {
+    font-size: 1.1em;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-image: linear-gradient(#D8BFD8, #BA55D3);
+    color: #ffffff;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    text-shadow: 0 6px 12px #0f0f0f;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 30px 20px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav a {
+        padding: 10px 15px;
+        font-size: 1em;
+    }
+
+    .section-title {
+        font-size: 1.8em;
+    }
+
+    .section p {
+        font-size: 1em;
+    }
+}
