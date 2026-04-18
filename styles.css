@@ -45,7 +45,8 @@ nav a {
     text-decoration: none;
     padding: 12px 20px;
     display: inline-block;
-    font-size: 1.1em;
+    font-size: 1.5em;
+    -webkit-text-stroke: 1.5px #ECDFEC;
     text-transform: uppercase;
     transition: background-color 0.3s;
 }
@@ -61,9 +62,24 @@ nav a:hover {
     padding: 20px;
 }
 
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.container > * {
+    flex: 1;
+}
+
+iframe {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
 .section {
     background-color: #ffffff;
-    text-align: center;
     padding: 30px;
     margin: 20px 0;
     border-radius: 8px;
@@ -101,7 +117,7 @@ footer {
     background-image: linear-gradient(#D8BFD8, #BA55D3);
     color: #ffffff;
     padding: 10px 0;
-    position: relative;
+    flex-basis: auto;
     bottom: 0;
     text-shadow: 0 6px 12px #0f0f0f;
 }
